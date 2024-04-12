@@ -50,20 +50,195 @@
 						
 							<p>Hello, world! My name is America Munoz, I am a senior graduating from National Louis University with a Bachelor of Science degree in Computer Science and Information System. As a first generation student the value of education has a profound significance in my life. My parents have instilled the phrase: knowledge is power, I hold that very dear to me and am eager to actively continue learning. Below is a collection of the projects that have contributed to my growth as a Data Analyst. In a technology changing world I'm committed to embracing every opportunity and expanding my knowledge and skills. 
 							</p>
+							<ul class="actions special">
+								<li><a href="https://github.com/america-m/Data-Analyst-Portfolio/blob/2333597cf0e5c8bd9b2d3b5c94c249ef3d0e9325/America%20Munoz-Resume.pdf" class="button">Resume</a></li>
+							</ul>
 						</header>
 						<div class="image main" >
-							<img src="images/A.Munoz.REU2023 2.jpg" alt="" style="width: 100%; height: 100%;">
+							<img src="images/A.Munoz.REU2023 2.jpg" alt="" style="width: 100; height: 100;">
 						</div>
-
 					</article>
 
-
-					<header class="major" style="font-size: larger; font-weight: bold;">
-						<p>
-							PROJECTS
-						</p>
-					</header>
+					<head>
+						<meta name="viewport" content="width=device-width, initial-scale=1">
+						<style>
+							* {box-sizing: border-box}
+							body {font-family: Verdana, sans-serif; margin:0}
+							.mySlides {display: flex}
+							img {vertical-align: middle;}
 					
+							/* Slideshow container */
+							.slideshow-container {
+								max-width: 1500px;
+								position: relative;
+								margin: 100%; /* Center horizontally */
+								text-align: left; /* Center the slides and dots */
+
+							}
+					
+							/* Next & previous buttons */
+							.prev, .next {
+								cursor: pointer;
+								position: absolute;
+								top: 50%;
+								width: auto;
+								padding: 16px;
+								margin-top: -22px;
+								color: rgb(37, 28, 28);
+								font-weight: bold;
+								font-size: 18px;
+								transition: 0.6s ease;
+								border-radius: 0 3px 3px 0;
+								user-select: none;
+							}
+					
+							/* Position the "next button" to the right */
+							.next {
+								right: 0;
+								border-radius: 3px 0 0 3px;
+							}
+					
+							/* On hover, add a black background color with a little bit see-through */
+							.prev:hover, .next:hover {
+								background-color: rgba(0,0,0,0.8);
+							}
+					
+							/* Caption text */
+							.text {
+								color: rgb(37, 28, 28);
+								font-size: 15px;
+								padding: 8px 12px;
+								position: relative;
+								bottom: 8px;
+								width: 100%;
+								text-align: center;
+							}
+					
+							/* Number text (1/3 etc) */
+							.numbertext {
+								color: #f2f2f2;
+								font-size: 12px;
+								padding: 8px 12px;
+								position: absolute;
+								top: 0;
+							}
+					
+							/* The dots/bullets/indicators */
+							.dot {
+								cursor: pointer;
+								height: 8px;
+								width: 8px;
+								margin: 0 2px;
+								background-color: #bbb;
+								border-radius: 50%;
+								display: inline-block;
+								transition: background-color 0.6s ease;
+							}
+					
+							.active, .dot:hover {
+								background-color: #ffdff5;
+							}
+					
+							/* Fading animation */
+							.fade {
+								animation-name: fade;
+								animation-duration: 1.5s;
+							}
+					
+							@keyframes fade {
+								from {opacity: .4}
+								to {opacity: 1}
+							}
+					
+							/* On smaller screens, decrease text size */
+							@media only screen and (max-width: 300px) {
+								.prev, .next,.text {font-size: 11px}
+							}
+						</style>
+					</head>
+					<body>
+					
+						<div class="slideshow-container" style="text-align: left;">
+
+
+						<div class="mySlides fade" >
+							<div class="numbertext">1 / 6</div>
+							<img src="images/IMG_2460.jpeg" style="display: block; margin: 0 auto; width: 60%; height: auto;">
+							<div class="text">Google Site Visit - 2024 </div>
+						</div>
+						<div class="mySlides fade" style="text-align: center;">
+							<div class="numbertext">2 / 6</div>
+							<img src="images/IMG_1685.jpeg" style="display: block; margin: 0 auto; width: 60%; height: auto;">
+							<div class="text">Google Site Visit - 2024</div>
+						</div>
+						<div class="mySlides fade" style="text-align: center;">
+							<div class="numbertext">3 / 6</div>
+							<img src="images/thumbnail_5.jpg" style="display: block; margin: 0 auto; width: 60%; height: auto;">
+							<div class="text">NLU Career Fair - 2023</div>
+						</div>
+						<div class="mySlides fade" style="text-align: center;">
+							<div class="numbertext">4 / 6</div>
+							<img src="images/IMG_9695.jpeg" style="display: block; margin: 0 auto; width: 60%; height: auto;">
+							<div class="text">WPI Data Science REU Symposium - 2023</div>
+						</div>
+						<div class="mySlides fade" style="text-align: center;">
+							<div class="numbertext">5 / 6</div>
+							<img src="images/Resized_received_3291994024423486.jpeg" style="display: block; margin: 0 auto; width: 60%; height: auto;">
+							<div class="text">Richard Tapia Celebration of Diversity in Computing Cohort - 2022</div>
+						</div>
+						<div class="mySlides fade" style="text-align: center;">
+							<div class="numbertext">6 / 6</div>
+							<img src="images/IMG_7035.jpeg" style="display: block; margin: 0 auto; width: 60%; height: auto;">
+							<div class="text">Girls Who Code Workshop - 2022</div>
+						</div>
+
+
+
+							<div style="text-align:center">
+								<span class="dot" onclick="currentSlide(1)"></span>
+								<span class="dot" onclick="currentSlide(2)"></span>
+								<span class="dot" onclick="currentSlide(3)"></span>
+								<span class="dot" onclick="currentSlide(4)"></span>
+								<span class="dot" onclick="currentSlide(5)"></span>
+								<span class="dot" onclick="currentSlide(6)"></span>
+								
+							  </div>
+					
+						<!-- Add more slides here -->
+					
+						<a class="prev" onclick="plusSlides(-1)">❮</a>
+						<a class="next" onclick="plusSlides(1)">❯</a>
+					</div>
+					
+					
+					<script>
+						let slideIndex = 1;
+						showSlides(slideIndex);
+					
+						function plusSlides(n) {
+							showSlides(slideIndex += n);
+						}
+					
+						function currentSlide(n) {
+							showSlides(slideIndex = n);
+						}
+					
+						function showSlides(n) {
+							let i;
+							let slides = document.getElementsByClassName("mySlides");
+							let dots = document.getElementsByClassName("dot");
+							if (n > slides.length) {slideIndex = 1}
+							if (n < 1) {slideIndex = slides.length}
+							for (i = 0; i < slides.length; i++) {
+								slides[i].style.display = "none";
+							}
+							slides[slideIndex-1].style.display = "block";
+						}
+					</script>
+
+					<header style="font-size: 24px; font-weight: bold; text-align: center;">
+						PROJECTS
+					</header>
 
 					<!-- Featured Post -->
 					<article class="posts" style="display: grid; grid-template-columns: 1fr; grid-template-rows: auto auto;"></article>
@@ -98,7 +273,7 @@
 								</article>
 								<article>
 									<header>
-										<h2><a href="https://github.com/america-m/Data-Analyst-Portfolio/tree/c6ec162dbbbc0e270c5f73b9b939a4675be9d0c8/Python/Superstore%20Sales%20">Data Exploration and Cleaning of Superstore Sales<br />
+										<h2><a href="https://github.com/america-m/Data-Analyst-Portfolio/tree/c6ec162dbbbc0e270c5f73b9b939a4675be9d0c8/Python/Superstore%20Sales%20">DATA EXPLORATION AND CLEANING OF SUPERSTORE SALES<br />
 									</header>
 									<a href="https://github.com/america-m/Data-Analyst-Portfolio/tree/c6ec162dbbbc0e270c5f73b9b939a4675be9d0c8/Python/Superstore%20Sales%20" class="image fit"><img src="images/pexels-alexander-isreb-1797428.jpg" alt="" width="200" height="400" /></a>
 									<p>This project provides an excellent opportunity to refine exploration and data cleaning techniques while utilizing Google Colab, a powerful platform for collaborative coding. Initially, the focus is on thoroughly exploring the dataset's intricacies, leveraging libraries like Scikit-learn and Matplotlib to generate summary statistics, visualize distributions, and identify outliers. This process not only ensures familiarity with the data but also visualizes a roadmap to fully leverage the dataset's capabilities.
@@ -109,7 +284,7 @@
 								</article>
 								<article>
 									<header>
-										<h2><a href="https://github.com/america-m/Data-Analyst-Portfolio/tree/708b0275610782eb191c49c335c02eadd6cd960d/Excel/Bakery%20Sales%20March%202020">Analysis of Bakery Sales March 2020<br />
+										<h2><a href="https://github.com/america-m/Data-Analyst-Portfolio/tree/708b0275610782eb191c49c335c02eadd6cd960d/Excel/Bakery%20Sales%20March%202020">ANALYSIS OF BAKERY SALES FROM MARCH 2020<br />
 									</header>
 									<a href="https://github.com/america-m/Data-Analyst-Portfolio/tree/708b0275610782eb191c49c335c02eadd6cd960d/Excel/Bakery%20Sales%20March%202020" class="image fit"><img src="images/bread-and-pastry-shop.jpg" alt="" width="200" height="400" /></a>
 									<p>In this project, I dived into sales data from a bakery collected in 2020, using Excel's robust features for in-depth analysis. My aim was to sharpen my Excel skills by working with a manageable dataset. As such the data preprocessing and visualizations were all done through Excel.
